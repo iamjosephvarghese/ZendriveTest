@@ -19,10 +19,18 @@ public class MyZendriveNotificationProvider extends ZendriveNotificationProvider
     @Override
     @RequiresApi(Build.VERSION_CODES.O)
     @NonNull
-    public ZendriveNotificationContainer getMaybeInDriveNotificationContainer(@NonNull Context context) { ... }
+    public ZendriveNotificationContainer getMaybeInDriveNotificationContainer(@NonNull Context context) {
+
+
+return null;
+    }
 
     @Override
     @NonNull
-    public ZendriveNotificationContainer getInDriveNotificationContainer(@NonNull Context context) { ... }
+    public ZendriveNotificationContainer getInDriveNotificationContainer(@NonNull Context context) {
+
+
+        return null;
+    }
 
 }
